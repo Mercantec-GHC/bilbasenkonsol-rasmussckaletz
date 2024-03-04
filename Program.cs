@@ -7,7 +7,7 @@ namespace BilbasenKonsol
         static void Main(string[] args)
         {
 
-            Car[] cars = {
+            Car[] cars = { // https://stackoverflow.com/questions/58517157/how-to-loop-array-of-objects-using-foreach
                 new Car("Ford", "Mustang", 1963, "Red", 430),
                 new Car("Toyota", "Camry", 2020, "Blue", 200),
                 new Car("Chevrolet", "Corvette", 2022, "Silver", 650),
@@ -113,7 +113,7 @@ namespace BilbasenKonsol
 
             foreach (Car car in cars)
             {
-                Console.WriteLine(car.Model);
+                Console.WriteLine(car.Brand);
             }
         }
     }
