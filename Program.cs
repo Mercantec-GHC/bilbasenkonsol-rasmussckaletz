@@ -110,11 +110,40 @@ namespace BilbasenKonsol
                 new Car("Honda", "Ridgeline", 2020, "Gray", 280)
             };
 
+            //int amountOfFirstCarBrand = 0;
 
             foreach (Car car in cars)
             {
-                Console.WriteLine(car.Brand);
+                /*if (car.Brand == cars[0].Brand)
+                {
+                    Console.WriteLine($"{car.Brand} {car.Model} {car.Year} {car.Color} {car.HorsePower}");
+                }
+                
+
+                if (car.HorsePower > 200 && car.Brand != cars[0].Brand)
+                {
+                    Console.WriteLine($"{car.Brand} {car.Model} {car.Year} {car.Color} {car.HorsePower}");
+                }*/
+
+                /*if (car.Color == "Red")
+                {
+                    Console.WriteLine($"{car.Brand} {car.Model} {car.Year} {car.Color} {car.HorsePower}");
+                }*/
+
+
+                /*if (car.Brand == cars[0].Brand)
+                {
+                    amountOfFirstCarBrand++;
+                }*/
+
+                if (car.Year <= 1999 && car.Year >= 1980)
+                {
+                    Console.WriteLine($"{car.Brand} {car.Model} {car.Year} {car.Color} {car.HorsePower}");
+                }
+
             }
+
+            //Console.WriteLine(amountOfFirstCarBrand);
         }
     }
 }
