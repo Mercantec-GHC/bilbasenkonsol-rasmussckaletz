@@ -17,3 +17,22 @@ C:\Users\MAGS\Documents\GitHub\BilbasenKonsol\bin\Debug\net8.0\Class Domain Mode
 C:\Users\MAGS\Documents\GitHub\BilbasenKonsol\bin\Debug\net8.0\Class Domain Models.pdb
 C:\Users\MAGS\Documents\GitHub\BilbasenKonsol\obj\Debug\net8.0\BilbasenKonsol.csproj.AssemblyReference.cache
 C:\Users\MAGS\Documents\GitHub\BilbasenKonsol\obj\Debug\net8.0\BilbasenKonsol.csproj.CopyComplete
+C:\Users\Rasmus\Documents\GitHub\bilbasenkonsol-rasmussckaletz\obj\Debug\net8.0\BilbasenKonsol.dll
+C:\Users\Rasmus\Documents\GitHub\bilbasenkonsol-rasmussckaletz\obj\Debug\net8.0\refint\BilbasenKonsol.dll
+C:\Users\Rasmus\Documents\GitHub\bilbasenkonsol-rasmussckaletz\obj\Debug\net8.0\BilbasenKonsol.pdb
+C:\Users\Rasmus\Documents\GitHub\bilbasenkonsol-rasmussckaletz\obj\Debug\net8.0\BilbasenKonsol.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rasmus\Documents\GitHub\bilbasenkonsol-rasmussckaletz\obj\Debug\net8.0\BilbasenKonsol.AssemblyInfoInputs.cache
+C:\Users\Rasmus\Documents\GitHub\bilbasenkonsol-rasmussckaletz\obj\Debug\net8.0\BilbasenKonsol.AssemblyInfo.cs
+C:\Users\Rasmus\Documents\GitHub\bilbasenkonsol-rasmussckaletz\obj\Debug\net8.0\BilbasenKonsol.csproj.CoreCompileInputs.cache
+C:\Users\Rasmus\Documents\GitHub\bilbasenkonsol-rasmussckaletz\obj\Debug\net8.0\BilbasenKonsol.sourcelink.json
+C:\Users\Rasmus\Documents\GitHub\bilbasenkonsol-rasmussckaletz\bin\Debug\net8.0\BilbasenKonsol.exe
+C:\Users\Rasmus\Documents\GitHub\bilbasenkonsol-rasmussckaletz\bin\Debug\net8.0\BilbasenKonsol.deps.json
+C:\Users\Rasmus\Documents\GitHub\bilbasenkonsol-rasmussckaletz\bin\Debug\net8.0\BilbasenKonsol.runtimeconfig.json
+C:\Users\Rasmus\Documents\GitHub\bilbasenkonsol-rasmussckaletz\bin\Debug\net8.0\BilbasenKonsol.dll
+C:\Users\Rasmus\Documents\GitHub\bilbasenkonsol-rasmussckaletz\bin\Debug\net8.0\BilbasenKonsol.pdb
+C:\Users\Rasmus\Documents\GitHub\bilbasenkonsol-rasmussckaletz\bin\Debug\net8.0\BilbasenNew.dll
+C:\Users\Rasmus\Documents\GitHub\bilbasenkonsol-rasmussckaletz\bin\Debug\net8.0\BilbasenNew.pdb
+C:\Users\Rasmus\Documents\GitHub\bilbasenkonsol-rasmussckaletz\obj\Debug\net8.0\BilbasenKonsol.csproj.AssemblyReference.cache
+C:\Users\Rasmus\Documents\GitHub\bilbasenkonsol-rasmussckaletz\obj\Debug\net8.0\Bilbasen.05310A7B.Up2Date
+C:\Users\Rasmus\Documents\GitHub\bilbasenkonsol-rasmussckaletz\obj\Debug\net8.0\BilbasenKonsol.genruntimeconfig.cache
+C:\Users\Rasmus\Documents\GitHub\bilbasenkonsol-rasmussckaletz\obj\Debug\net8.0\ref\BilbasenKonsol.dll
