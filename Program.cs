@@ -107,7 +107,7 @@ namespace BilbasenKonsol
                 {
                     ElectricCar electricCar = (ElectricCar) obj;
 
-                    if (electricCar == list[0])
+                    /*if (electricCar == list[0])
                     {
                         firstCarBrand = electricCar.Brand;
                     }
@@ -115,7 +115,7 @@ namespace BilbasenKonsol
                     {
                         amountOfFirstCarBrand++;
                         Console.WriteLine($"{electricCar.Brand} {electricCar.Model} {electricCar.Year} {electricCar.Color} {electricCar.HorsePower} {electricCar.BatteryCapacity}");
-                    }
+                    }*/
 
                     /*if (electricCar.HorsePower > 200)
                     {
@@ -126,13 +126,18 @@ namespace BilbasenKonsol
                     {
                         Console.WriteLine($"{electricCar.Brand} {electricCar.Model} {electricCar.Year} {electricCar.Color} {electricCar.HorsePower} {electricCar.BatteryCapacity}");
                     }*/
+
+                    if (electricCar.Year <= 1999 && electricCar.Year >= 1980)
+                    {
+                        Console.WriteLine($"{electricCar.Brand} {electricCar.Model} {electricCar.Year} {electricCar.Color} {electricCar.HorsePower} {electricCar.BatteryCapacity}");
+                    }
                 }
 
                 else if (obj is GasolineCar)
                 {
                     GasolineCar gasolineCar = (GasolineCar) obj;
 
-                    if (gasolineCar == list[0])
+                    /*if (gasolineCar == list[0])
                     {
                         firstCarBrand = gasolineCar.Brand;
                     }
@@ -140,7 +145,7 @@ namespace BilbasenKonsol
                     {
                         amountOfFirstCarBrand++;
                         Console.WriteLine($"{gasolineCar.Brand} {gasolineCar.Model} {gasolineCar.Year} {gasolineCar.Color} {gasolineCar.HorsePower} {gasolineCar.NumberOfCylinders}");
-                    }
+                    }*/
 
                     /*if (gasolineCar.HorsePower > 200)
                     {
@@ -152,43 +157,14 @@ namespace BilbasenKonsol
                         Console.WriteLine($"{gasolineCar.Brand} {gasolineCar.Model} {gasolineCar.Year} {gasolineCar.Color} {gasolineCar.HorsePower} {gasolineCar.NumberOfCylinders}");
                     }*/
 
-
+                    if (gasolineCar.Year <= 1999 && gasolineCar.Year >= 1980)
+                    {
+                        Console.WriteLine($"{gasolineCar.Brand} {gasolineCar.Model} {gasolineCar.Year} {gasolineCar.Color} {gasolineCar.HorsePower} {gasolineCar.NumberOfCylinders}");
+                    }
                 }
             }
 
-            Console.WriteLine($"Amount of first car brand: {amountOfFirstCarBrand}");
-
-            
-
-                /*if (car.Brand == cars[0].Brand)
-                {
-                    Console.WriteLine($"{car.Brand} {car.Model} {car.Year} {car.Color} {car.HorsePower}");
-                }
-                
-
-                if (car.HorsePower > 200 && car.Brand != cars[0].Brand)
-                {
-                    Console.WriteLine($"{car.Brand} {car.Model} {car.Year} {car.Color} {car.HorsePower}");
-                }*/
-
-                /*if (car.Color == "Red")
-                {
-                    Console.WriteLine($"{car.Brand} {car.Model} {car.Year} {car.Color} {car.HorsePower}");
-                }*/
-
-
-                /*if (car.Brand == cars[0].Brand)
-                {
-                    amountOfFirstCarBrand++;
-                }*/
-
-                /*if (car.Year <= 1999 && car.Year >= 1980)
-                {
-                    Console.WriteLine($"{car.Brand} {car.Model} {car.Year} {car.Color} {car.HorsePower}");
-                }*/
-
-
-            //Console.WriteLine(amountOfFirstCarBrand);
+            //Console.WriteLine($"Amount of first car brand: {amountOfFirstCarBrand}");
         }
     }
 }
