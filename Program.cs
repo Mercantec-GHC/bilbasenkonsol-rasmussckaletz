@@ -1,4 +1,5 @@
 ﻿using BilbasenNew;
+using System.Runtime.Serialization;
 
 namespace BilbasenKonsol
 {
@@ -106,11 +107,16 @@ namespace BilbasenKonsol
                 {
                     ElectricCar electricCar = (ElectricCar) obj;
 
-                    if (electricCar == list[0])
+                    /*if (electricCar == list[0])
                     {
                         firstCarBrand = electricCar.Brand;
                     }
                     if (electricCar.Brand == firstCarBrand)
+                    {
+                        Console.WriteLine($"{electricCar.Brand} {electricCar.Model} {electricCar.Year} {electricCar.Color} {electricCar.HorsePower} {electricCar.BatteryCapacity}");
+                    }*/
+
+                    if (electricCar.HorsePower > 200)
                     {
                         Console.WriteLine($"{electricCar.Brand} {electricCar.Model} {electricCar.Year} {electricCar.Color} {electricCar.HorsePower} {electricCar.BatteryCapacity}");
                     }
@@ -120,11 +126,16 @@ namespace BilbasenKonsol
                 {
                     GasolineCar gasolineCar = (GasolineCar) obj;
 
-                    if (gasolineCar == list[0])
+                    /*if (gasolineCar == list[0])
                     {
                         firstCarBrand = gasolineCar.Brand;
                     }
                     if (gasolineCar.Brand == firstCarBrand)
+                    {
+                        Console.WriteLine($"{gasolineCar.Brand} {gasolineCar.Model} {gasolineCar.Year} {gasolineCar.Color} {gasolineCar.HorsePower} {gasolineCar.NumberOfCylinders}");
+                    }*/
+
+                    if (gasolineCar.HorsePower > 200)
                     {
                         Console.WriteLine($"{gasolineCar.Brand} {gasolineCar.Model} {gasolineCar.Year} {gasolineCar.Color} {gasolineCar.HorsePower} {gasolineCar.NumberOfCylinders}");
                     }
