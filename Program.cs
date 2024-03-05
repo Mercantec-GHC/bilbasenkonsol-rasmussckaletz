@@ -10,7 +10,7 @@ namespace BilbasenKonsol
 
             List<object> list = new List<object>
             {
-                new GasolineCar("Tesla", "Mustang", 1963, "Red", 430, 8),
+                new GasolineCar("Ford", "Mustang", 1963, "Red", 430, 8),
                 new GasolineCar("Toyota", "Camry", 2020, "Blue", 200, 4),
                 new GasolineCar("Chevrolet", "Corvette", 2022, "Silver", 650, 8),
                 new GasolineCar("Honda", "Civic", 2005, "Black", 150, 4),
@@ -107,40 +107,56 @@ namespace BilbasenKonsol
                 {
                     ElectricCar electricCar = (ElectricCar) obj;
 
-                    /*if (electricCar == list[0])
+                    if (electricCar == list[0])
                     {
                         firstCarBrand = electricCar.Brand;
                     }
                     if (electricCar.Brand == firstCarBrand)
                     {
+                        amountOfFirstCarBrand++;
+                        Console.WriteLine($"{electricCar.Brand} {electricCar.Model} {electricCar.Year} {electricCar.Color} {electricCar.HorsePower} {electricCar.BatteryCapacity}");
+                    }
+
+                    /*if (electricCar.HorsePower > 200)
+                    {
                         Console.WriteLine($"{electricCar.Brand} {electricCar.Model} {electricCar.Year} {electricCar.Color} {electricCar.HorsePower} {electricCar.BatteryCapacity}");
                     }*/
 
-                    if (electricCar.HorsePower > 200)
+                    /*if (electricCar.Color == "Red")
                     {
                         Console.WriteLine($"{electricCar.Brand} {electricCar.Model} {electricCar.Year} {electricCar.Color} {electricCar.HorsePower} {electricCar.BatteryCapacity}");
-                    }
+                    }*/
                 }
 
                 else if (obj is GasolineCar)
                 {
                     GasolineCar gasolineCar = (GasolineCar) obj;
 
-                    /*if (gasolineCar == list[0])
+                    if (gasolineCar == list[0])
                     {
                         firstCarBrand = gasolineCar.Brand;
                     }
                     if (gasolineCar.Brand == firstCarBrand)
                     {
+                        amountOfFirstCarBrand++;
+                        Console.WriteLine($"{gasolineCar.Brand} {gasolineCar.Model} {gasolineCar.Year} {gasolineCar.Color} {gasolineCar.HorsePower} {gasolineCar.NumberOfCylinders}");
+                    }
+
+                    /*if (gasolineCar.HorsePower > 200)
+                    {
                         Console.WriteLine($"{gasolineCar.Brand} {gasolineCar.Model} {gasolineCar.Year} {gasolineCar.Color} {gasolineCar.HorsePower} {gasolineCar.NumberOfCylinders}");
                     }*/
 
-                    if (gasolineCar.HorsePower > 200)
+                    /*if (gasolineCar.Color == "Red")
                     {
                         Console.WriteLine($"{gasolineCar.Brand} {gasolineCar.Model} {gasolineCar.Year} {gasolineCar.Color} {gasolineCar.HorsePower} {gasolineCar.NumberOfCylinders}");
-                    }
+                    }*/
+
+
                 }
             }
+
+            Console.WriteLine($"Amount of first car brand: {amountOfFirstCarBrand}");
 
             
 
