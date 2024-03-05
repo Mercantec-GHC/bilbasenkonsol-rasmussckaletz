@@ -9,7 +9,7 @@ namespace BilbasenKonsol
 
             List<object> list = new List<object>
             {
-                new GasolineCar("Ford", "Mustang", 1963, "Red", 430, 8),
+                new GasolineCar("Tesla", "Mustang", 1963, "Red", 430, 8),
                 new GasolineCar("Toyota", "Camry", 2020, "Blue", 200, 4),
                 new GasolineCar("Chevrolet", "Corvette", 2022, "Silver", 650, 8),
                 new GasolineCar("Honda", "Civic", 2005, "Black", 150, 4),
@@ -95,26 +95,44 @@ namespace BilbasenKonsol
                 new GasolineCar("Honda", "Ridgeline", 2020, "Gray", 280, 6)
             };
 
+
+            string firstCarBrand = "";
+            int amountOfFirstCarBrand = 0;
+
+
             foreach (object obj in list)
             {
                 if (obj is ElectricCar) // https://stackoverflow.com/questions/2763501/can-i-use-foreach-to-return-only-a-certain-type-from-a-collection
                 {
                     ElectricCar electricCar = (ElectricCar) obj;
-                    Console.WriteLine(electricCar.Brand);
+
+                    if (electricCar == list[0])
+                    {
+                        firstCarBrand = electricCar.Brand;
+                    }
+                    if (electricCar.Brand == firstCarBrand)
+                    {
+                        Console.WriteLine($"{electricCar.Brand} {electricCar.Model} {electricCar.Year} {electricCar.Color} {electricCar.HorsePower} {electricCar.BatteryCapacity}");
+                    }
                 }
+
                 else if (obj is GasolineCar)
                 {
                     GasolineCar gasolineCar = (GasolineCar) obj;
-                    Console.WriteLine(gasolineCar.Brand);
+
+                    if (gasolineCar == list[0])
+                    {
+                        firstCarBrand = gasolineCar.Brand;
+                    }
+                    if (gasolineCar.Brand == firstCarBrand)
+                    {
+                        Console.WriteLine($"{gasolineCar.Brand} {gasolineCar.Model} {gasolineCar.Year} {gasolineCar.Color} {gasolineCar.HorsePower} {gasolineCar.NumberOfCylinders}");
+                    }
                 }
             }
 
-
-            //int amountOfFirstCarBrand = 0;
             
 
-            foreach (Car car in cars)
-            {
                 /*if (car.Brand == cars[0].Brand)
                 {
                     Console.WriteLine($"{car.Brand} {car.Model} {car.Year} {car.Color} {car.HorsePower}");
@@ -142,7 +160,6 @@ namespace BilbasenKonsol
                     Console.WriteLine($"{car.Brand} {car.Model} {car.Year} {car.Color} {car.HorsePower}");
                 }*/
 
-            }
 
             //Console.WriteLine(amountOfFirstCarBrand);
         }
