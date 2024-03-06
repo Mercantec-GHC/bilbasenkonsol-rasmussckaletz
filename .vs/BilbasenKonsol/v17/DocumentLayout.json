@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\Rasmus\\Documents\\GitHub\\bilbasenkonsol-rasmussckaletz\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1728F8FD-66D3-48DB-862B-68067C2BAD47}|..\\BilbasenNew\\BilbasenNew.csproj|c:\\users\\rasmus\\documents\\github\\bilbasennew\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DEDC90C4-CEA8-493B-901E-78CCFA3FF02A}|BilbasenKonsol.csproj|c:\\users\\rasmus\\documents\\github\\bilbasenkonsol-rasmussckaletz\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DEDC90C4-CEA8-493B-901E-78CCFA3FF02A}|BilbasenKonsol.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1728F8FD-66D3-48DB-862B-68067C2BAD47}|..\\BilbasenNew\\BilbasenNew.csproj|c:\\users\\rasmus\\documents\\github\\bilbasennew\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,30 +17,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\Rasmus\\Documents\\GitHub\\BilbasenNew\\Class1.cs",
               "RelativeDocumentMoniker": "..\\BilbasenNew\\Class1.cs",
               "ToolTip": "C:\\Users\\Rasmus\\Documents\\GitHub\\BilbasenNew\\Class1.cs",
               "RelativeToolTip": "..\\BilbasenNew\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
+              "ViewState": "AQIAACYAAAAAAAAAAAA4wDwAAABcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-06T10:14:34.937Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Rasmus\\Documents\\GitHub\\bilbasenkonsol-rasmussckaletz\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Rasmus\\Documents\\GitHub\\bilbasenkonsol-rasmussckaletz\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAGAAAAAAAAAAAADwv2UAAAAAAAAA",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAgwHAAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-04T09:43:49.805Z",
               "EditorCaption": ""
